@@ -23,14 +23,14 @@ For testing, one can do something along the lines of
 
 ```
 $cd src
-$py P_RDPG.py --model ../well_perfoming_agents/pendulum/separated_backend/agent_A/best_model_so_far_4810_  --test 1
+$python3.8 P_RDPG.py --model ../well_perfoming_agents/pendulum/separated_backend/agent_A/best_model_so_far_4810_  --test 1
 ```
 
 If necessary, one can sample multiple envs in parallel using scoop: 
 
 ```
 $cd src
-$py -m scoop -n <num_proc> P_RDPG.py <blablabla>
+$python3.8 -m scoop -n <num_proc> P_RDPG.py <blablabla>
 ```
 
 ## Env visualization
